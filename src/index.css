@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face{
+  font-family: crake-bold;
+  src: url("assets/fonts/blenda.otf");
+}
+@font-face{
+  font-family: crake-light;
+  src: url("assets/crake/crake-light.ttf");
+}
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: crake-bold;
+}
